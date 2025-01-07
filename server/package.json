@@ -1,0 +1,16 @@
+{
+  
+    "scripts": {
+      "start": "concurrently \"npm run index\" \"npm run client\"",
+      "server": "cd backend && node index.js",
+      "client": "cd frontend && npm start"
+    },
+  
+  
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"
+  }
+}
